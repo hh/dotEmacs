@@ -1,3 +1,4 @@
 ;git clone git://github.com/tsgates/git-emacs.git  
-(setq load-path (cons (expand-file-name "~/config/lisp/git-emacs/") load-path))
+;(add-to-list 'load-path "~/config/lisp/git-emacs/")
+(add-to-list 'load-path "/Users/chris/.emacs.d/")
 (require 'git-emacs)
