@@ -83,9 +83,6 @@
 
 ;; ;; (windmove-default-keybindings 'meta)
 ;; ;; (setq ido-enable-flex-matching t)
-;; ;; ;(global-set-key [(f6)] 'recompile)
-;; ;; (global-set-key [(f12)] 'comment-region)
-;; ;; (global-set-key [(f11)] 'uncomment-region)
 
 ;; ;; (require 'w3m-load)
 ;; ;; (setq mail-user-agent "mh-e-user-agent")
@@ -151,8 +148,6 @@
 ;; ;;  (when (> (length (defined-colors)) 16)
 ;; ;;    (egoge-wash-out-fontlock-faces 1))
 
-;; ;; (global-set-key (kbd "C-=") 'text-scale-increase)
-;; ;; (global-set-key (kbd "C--") 'text-scale-decrease)
 
 
 ;; ;; ;; (if (not (eq (string-match "23" (emacs-version)) nil))
@@ -168,9 +163,6 @@
 
 ;; ;; ;;raise hell
 
-;; ;; ;; (global-set-key "^X!" 'shell)
-;; ;; ;; (global-set-key "^Xx" 'send-to-buffer) ;;copies from top buffer to bottom
-;; ;; ;; (fset 'send-to-buffer "\C-@\C-[\C-f\C-e\C-[w\C-xo\C-y\C-m\C-xo\C-e\C-[OC")
 
 
 ;; ;; ;; ;;
@@ -300,10 +292,6 @@
 ;; ;; ;;   (setq imen)
 ;; ;; ;;(add-hook 'ruby-mode-hook
 ;; ;;  ;; (lambda()
-;; ;; (global-set-key (kbd "C-c <right>") 'hs-show-block)
-;; ;; (global-set-key (kbd "C-c <left>")  'hs-hide-block)
-;; ;; (global-set-key (kbd "C-c <up>")    'hs-hide-all)
-;; ;; (global-set-key (kbd "C-c <down>")  'hs-show-all)
 ;; ;; ;(hs-minor-mode t)))
 ;; ;; (add-to-list 'which-func-modes 'ruby-mode)
 ;; ;; (which-function-mode t)

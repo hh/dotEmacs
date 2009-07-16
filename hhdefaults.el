@@ -49,18 +49,20 @@
 ;; ;; ;;(ansi-term "/bin/ksh")
 ;; ;; (setq inhibit-startup-message t)
 ;; ;; 					;(setq debug-on-error t)
-;; ;; (defun my-ansi-term () (interactive)(ansi-term "/bin/bash")) (global-set-key "\C-t" 'my-ansi-term)
+(defun my-ansi-term () (interactive)(ansi-term "/bin/bash"))
+(global-set-key [(control x)(control t)] 'my-ansi-term)
+(global-set-key [(control x)(control b)] 'ibuffer)
 
-;; ;; (require 'ido)
-;; ;; (ido-mode t)
-;; ;; (setq iswitch-mode t)
+(require 'ido)
+(ido-mode t)
+(setq iswitch-mode t)
 
 ;; ;; (setq uniquify-buffer-name-style 'forward)
 ;; ;; ;; Moving cursor down at bottom scrolls only a
 ;; ;; ;; single line, not half page
-;; ;; (setq scroll-step 1)
-;; ;; (setq scroll-conservatively 5)
-;; ;; (fset 'yes-or-no-p 'y-or-n-p)
+(setq scroll-step 1)
+(setq scroll-conservatively 5)
+(fset 'yes-or-no-p 'y-or-n-p)
 
 
 ;; ;; (setq mouse-autoselect-window t)
